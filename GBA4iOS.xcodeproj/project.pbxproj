@@ -2156,9 +2156,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GBA4iOS/Pods-GBA4iOS-resources.sh",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/back_button.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/back_button@2x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/back_button@3x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/forward_button.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/forward_button@2x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/forward_button@3x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/chrome_activity.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/chrome_activity@2x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/chrome_activity@3x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/safari_activity.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/safari_activity@2x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/safari_activity@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/back_button.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/back_button@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/back_button@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/forward_button.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/forward_button@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/forward_button@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/chrome_activity.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/chrome_activity@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/chrome_activity@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/safari_activity.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/safari_activity@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/safari_activity@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2186,13 +2211,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBA4iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4CE397D2FDD5971E8E875CB4 /* [CP] Copy Pods Resources */ = {
@@ -2201,9 +2229,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GBA4iOS-Simulator/Pods-GBA4iOS-Simulator-resources.sh",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/back_button.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/back_button@2x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/back_button@3x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/forward_button.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/forward_button@2x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/forward_button@3x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/chrome_activity.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/chrome_activity@2x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/chrome_activity@3x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/safari_activity.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/safari_activity@2x.png",
+				"${PODS_ROOT}/RSTWebViewController/RSTWebViewController/UIActivities/safari_activity@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/back_button.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/back_button@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/back_button@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/forward_button.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/forward_button@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/forward_button@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/chrome_activity.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/chrome_activity@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/chrome_activity@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/safari_activity.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/safari_activity@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/safari_activity@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2229,13 +2282,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBA4iOS-Simulator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF7C0E74189DA4CB00794093 /* ShellScript */ = {
@@ -3031,7 +3087,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jvandew.GBA4iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvdw.GBA4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -3231,7 +3287,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jvandew.GBA4iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvdw.GBA4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3551,7 +3607,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jvandew.GBA4iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvdw.GBA4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -3592,7 +3648,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jvandew.GBA4iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvdw.GBA4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3749,7 +3805,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jvandew.GBA4iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvdw.GBA4iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
